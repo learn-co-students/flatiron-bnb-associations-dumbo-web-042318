@@ -1,4 +1,5 @@
 require 'rails_helper'
+require 'pry'
 
 describe Listing do
   let(:new_york_city) { City.create(name: 'NYC') }
