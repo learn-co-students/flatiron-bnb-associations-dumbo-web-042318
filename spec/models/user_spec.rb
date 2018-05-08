@@ -57,6 +57,7 @@ describe User do
 
 
       it 'has written many reviews' do
+          # binding.pry
         expect(logan.reviews).to include(review)
       end
     end
